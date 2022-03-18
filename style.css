@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.text {
+    margin-left: 20%;
+    margin-right: 42%;
+    text-align: justify;
+}
+
+.choose {
+    position: relative;
+    color: #FFAC3E;
+    font-weight: bold;
+}
+
+.popup {
+    display: none;
+    padding: 15px 15px 25px 15px;
+    background-color: white;
+    box-shadow: 2px 2px 25px rgba(0, 0, 0, 0.3);
+    color: #6A6A6A;
+    position: absolute;
+    width: fit-content;
+    left: 50%;
+    top: 30px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 25px;
+    z-index: 1;
+    transform: translate(-50%, 0);
+}
+
+.choose:hover .popup,
+.popup:hover {
+    display: block;
+}
+
